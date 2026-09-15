@@ -11,9 +11,14 @@
   <meta property="og:site_name" content="365올케어치과">
   <meta property="og:title" content="365올케어치과 | Link Hub">
   <meta property="og:description" content="365올케어치과 공식 링크허브 — 예약, 상담, 진료 안내를 한 곳에서 확인하세요.">
-  <meta property="og:image" content="assets/Logo.png">
+  <meta property="og:image" content="https://link.allcaredc.kr/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <!-- TODO: 최종 도메인이 확정되면 og:url, og:image, canonical, sitemap.xml의 주소를 함께 업데이트하세요. -->
   <meta property="og:url" content="https://link.allcaredc.kr/">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://link.allcaredc.kr/assets/og-image.png">
+  <link rel="canonical" href="https://link.allcaredc.kr/">
 
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
@@ -24,6 +29,42 @@
   <link rel="stylesheet" as="style" crossorigin
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
   <link rel="stylesheet" href="./css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "365올케어치과",
+    "image": "assets/Logo.png",
+    "url": "https://link.allcaredc.kr/",
+    "telephone": "+82-2-2232-2911",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "동호로 171 더그레이스빌딩 4층",
+      "addressLocality": "중구",
+      "addressRegion": "서울특별시",
+      "postalCode": "",
+      "addressCountry": "KR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 37.5547,
+      "longitude": 127.0107
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Thursday"], "opens": "09:30", "closes": "20:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday","Friday"], "opens": "09:30", "closes": "18:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday"], "opens": "09:30", "closes": "14:00" }
+    ],
+    "sameAs": [
+      "https://blog.naver.com/allcarelime",
+      "https://pf.kakao.com/_AmxkqG",
+      "https://place.map.kakao.com/2031808279",
+      "https://www.instagram.com/"
+    ]
+  }
+  </script>
 </head>
 <body>
   <main class="page">
@@ -52,12 +93,12 @@
     </section>
 
     <nav class="quick-links" aria-label="예약과 상담">
-      <a class="pill primary" href="https://bit.ly/4xvkMM7" target="_blank" rel="noopener noreferrer">
+      <a class="pill primary" href="https://bit.ly/4xvkMM7?utm_source=linkhub&utm_medium=biolink&utm_campaign=allcare_linkhub&utm_content=quicklink_naver" target="_blank" rel="noopener noreferrer">
         <img class="pill-icon" src="assets/icons/naver.png" alt="">
         네이버 진료 예약 <span aria-hidden="true">↗</span>
       </a>
       <div class="contact-grid">
-        <a class="pill mint" href="https://pf.kakao.com/_AmxkqG" target="_blank" rel="noopener noreferrer">
+        <a class="pill mint" href="https://pf.kakao.com/_AmxkqG?utm_source=linkhub&utm_medium=biolink&utm_campaign=allcare_linkhub&utm_content=quicklink_kakao" target="_blank" rel="noopener noreferrer">
           <img class="pill-icon" src="assets/icons/kakaocn.png" alt="">
           카카오톡 상담 <span aria-hidden="true">↗</span>
         </a>
@@ -65,11 +106,11 @@
           전화 상담 <span aria-hidden="true">↗</span>
         </a>
       </div>
-      <a class="pill outline" href="https://allcaredc.kr/" target="_blank" rel="noopener noreferrer">
+      <a class="pill outline" href="https://allcaredc.kr/?utm_source=linkhub&utm_medium=biolink&utm_campaign=allcare_linkhub&utm_content=quicklink_homepage" target="_blank" rel="noopener noreferrer">
         공식 홈페이지 <span aria-hidden="true">↗</span>
       </a>
 
-      <a class="photo-card" href="https://allcaredc.kr/notice/not_mtam735suwyyo9" target="_blank" rel="noopener noreferrer">
+      <a class="photo-card" href="https://allcaredc.kr/notice/not_mtam735suwyyo9?utm_source=linkhub&utm_medium=biolink&utm_campaign=allcare_linkhub&utm_content=banner_notice" target="_blank" rel="noopener noreferrer">
         <img src="assets/banner.png" alt="365올케어치과 9월 진료일정 안내">
         <div>
           <span>
@@ -80,7 +121,7 @@
         </div>
       </a>
 
-      <a class="check-card blog" href="https://blog.naver.com/allcarelime/224406107618" target="_blank" rel="noopener noreferrer">
+      <a class="check-card blog" href="https://blog.naver.com/allcarelime/224406107618?utm_source=linkhub&utm_medium=biolink&utm_campaign=allcare_linkhub&utm_content=blog_card" target="_blank" rel="noopener noreferrer">
         <span class="check-card-body">
           <span class="badge">치과소식</span>
           <strong>비절개 임플란트,<br>오래 쓰는 비결은?</strong>
@@ -94,20 +135,20 @@
 
     <section class="link-section" aria-labelledby="care-title">
       <h2 id="care-title">올케어 진료 안내</h2>
-      <a class="pill outline" href="https://allcaredc.kr/doctors" target="_blank" rel="noopener noreferrer">
+      <a class="pill outline" href="https://allcaredc.kr/doctors?utm_source=linkhub&utm_medium=biolink&utm_campaign=allcare_linkhub&utm_content=section_doctors" target="_blank" rel="noopener noreferrer">
         365올케어치과 의료진 소개 <span aria-hidden="true">↗</span>
       </a>
-      <a class="pill outline two-line" href="https://allcaredc.kr/treatments" target="_blank" rel="noopener noreferrer">
+      <a class="pill outline two-line" href="https://allcaredc.kr/treatments?utm_source=linkhub&utm_medium=biolink&utm_campaign=allcare_linkhub&utm_content=section_treatments" target="_blank" rel="noopener noreferrer">
         <span>
           <strong>진료 과목 알아보기</strong>
           <small>임플란트 · 치아교정 · 심미보철 · 수면진료</small>
         </span>
         <span aria-hidden="true">↗</span>
       </a>
-      <a class="pill outline" href="https://allcaredc.kr/notice" target="_blank" rel="noopener noreferrer">
+      <a class="pill outline" href="https://allcaredc.kr/notice?utm_source=linkhub&utm_medium=biolink&utm_campaign=allcare_linkhub&utm_content=section_notice" target="_blank" rel="noopener noreferrer">
         공지사항 · 진료일정 <span aria-hidden="true">↗</span>
       </a>
-      <a class="check-card" href="https://allcare-oral-check.netlify.app/" target="_blank" rel="noopener noreferrer">
+      <a class="check-card" href="https://allcare-oral-check.netlify.app/?utm_source=linkhub&utm_medium=biolink&utm_campaign=allcare_linkhub&utm_content=oralcheck_card" target="_blank" rel="noopener noreferrer">
         <span class="check-card-body">
           <span class="badge">1분 셀프 체크</span>
           <strong>내 구강나이는<br>몇 살일까요?</strong>
@@ -126,7 +167,7 @@
         <div class="station"><span>3</span><span>6</span> 약수역 5번 출구</div>
         <h3>걸어서 1분, 건물 4층</h3>
         <p>서울 중구 동호로 171 더그레이스빌딩<br>스타벅스 건물 4층</p>
-        <a class="pill outline" href="https://allcaredc.kr/directions" target="_blank" rel="noopener noreferrer">
+        <a class="pill outline" href="https://allcaredc.kr/directions?utm_source=linkhub&utm_medium=biolink&utm_campaign=allcare_linkhub&utm_content=visit_directions" target="_blank" rel="noopener noreferrer">
           오시는 길 · 주차 안내 <span aria-hidden="true">↗</span>
         </a>
       </div>
@@ -166,7 +207,7 @@
     </section>
 
     <section class="link-stack" aria-label="바로가기">
-      <a class="link-card" href="https://allcaredc.kr/" target="_blank" rel="noopener">
+      <a class="link-card" href="https://allcaredc.kr/?utm_source=linkhub&utm_medium=biolink&utm_campaign=allcare_linkhub&utm_content=stack_homepage" target="_blank" rel="noopener">
         <span class="icon-box">
           <img src="assets/Logo.png" alt="365올케어치과">
         </span>
@@ -177,7 +218,7 @@
         <span class="arrow">↗</span>
       </a>
 
-      <a class="link-card" href="https://allcaredc.kr/reservation" target="_blank" rel="noopener">
+      <a class="link-card" href="https://allcaredc.kr/reservation?utm_source=linkhub&utm_medium=biolink&utm_campaign=allcare_linkhub&utm_content=stack_reservation" target="_blank" rel="noopener">
         <span class="icon-box" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
             <path d="M4 5.5h16v11H8l-4 3v-14Z"></path>
@@ -204,7 +245,7 @@
         <span class="arrow">→</span>
       </a>
 
-      <a class="link-card" href="https://bit.ly/4xvkMM7" target="_blank" rel="noopener">
+      <a class="link-card" href="https://bit.ly/4xvkMM7?utm_source=linkhub&utm_medium=biolink&utm_campaign=allcare_linkhub&utm_content=stack_naver" target="_blank" rel="noopener">
         <span class="icon-box">
           <img src="assets/icons/naver.png" alt="네이버 스마트플레이스">
         </span>
@@ -215,7 +256,7 @@
         <span class="arrow">↗</span>
       </a>
 
-      <a class="link-card" href="https://place.map.kakao.com/2031808279" target="_blank" rel="noopener">
+      <a class="link-card" href="https://place.map.kakao.com/2031808279?utm_source=linkhub&utm_medium=biolink&utm_campaign=allcare_linkhub&utm_content=stack_kakaomap" target="_blank" rel="noopener">
         <span class="icon-box">
           <img src="assets/icons/kakaomap_basic.png" alt="카카오맵">
         </span>
@@ -226,7 +267,7 @@
         <span class="arrow">↗</span>
       </a>
 
-      <a class="link-card" href="https://share.google/TN6YlHQ7Dvc0kmc4J" target="_blank" rel="noopener noreferrer">
+      <a class="link-card" href="https://share.google/TN6YlHQ7Dvc0kmc4J?utm_source=linkhub&utm_medium=biolink&utm_campaign=allcare_linkhub&utm_content=stack_google" target="_blank" rel="noopener noreferrer">
         <span class="icon-box">
           <img src="assets/icons/google.png" alt="Google">
         </span>
@@ -237,7 +278,7 @@
         <span class="arrow">↗</span>
       </a>
 
-      <a class="link-card" href="https://www.daangn.com/kr/local-profile/o4ndx5ty9zp1/" target="_blank" rel="noopener">
+      <a class="link-card" href="https://www.daangn.com/kr/local-profile/o4ndx5ty9zp1/?utm_source=linkhub&utm_medium=biolink&utm_campaign=allcare_linkhub&utm_content=stack_daangn" target="_blank" rel="noopener">
         <span class="icon-box">
           <img src="assets/icons/danggun.png" alt="당근">
         </span>
@@ -248,7 +289,7 @@
         <span class="arrow">↗</span>
       </a>
 
-      <a class="link-card" href="https://pf.kakao.com/_AmxkqG" target="_blank" rel="noopener">
+      <a class="link-card" href="https://pf.kakao.com/_AmxkqG?utm_source=linkhub&utm_medium=biolink&utm_campaign=allcare_linkhub&utm_content=stack_kakaotalk" target="_blank" rel="noopener">
         <span class="icon-box">
           <img src="assets/icons/kakaocn.png" alt="카카오톡 채널">
         </span>
@@ -259,7 +300,7 @@
         <span class="arrow">↗</span>
       </a>
 
-      <a class="link-card" href="https://www.instagram.com/" target="_blank" rel="noopener">
+      <a class="link-card" href="https://www.instagram.com/?utm_source=linkhub&utm_medium=biolink&utm_campaign=allcare_linkhub&utm_content=stack_instagram" target="_blank" rel="noopener">
         <span class="icon-box">
           <img src="assets/icons/instagram.webp" alt="인스타그램">
         </span>
@@ -270,7 +311,7 @@
         <span class="arrow">↗</span>
       </a>
 
-      <a class="link-card" href="https://blog.naver.com/allcarelime" target="_blank" rel="noopener">
+      <a class="link-card" href="https://blog.naver.com/allcarelime?utm_source=linkhub&utm_medium=biolink&utm_campaign=allcare_linkhub&utm_content=stack_blog" target="_blank" rel="noopener">
         <span class="icon-box">
           <img src="assets/icons/naver-blog.webp" alt="네이버 블로그">
         </span>
@@ -289,13 +330,24 @@
     </footer>
   </main>
 
-  <a class="fixed-reservation" href="https://bit.ly/4xvkMM7" target="_blank" rel="noopener" aria-label="네이버 진료 예약하기">
+  <a class="fixed-reservation" href="https://bit.ly/4xvkMM7?utm_source=linkhub&utm_medium=biolink&utm_campaign=allcare_linkhub&utm_content=floating_cta" target="_blank" rel="noopener" aria-label="네이버 진료 예약하기">
     <span class="reservation-dot" aria-hidden="true"></span>
     <span>네이버 진료 예약하기</span>
     <span class="reservation-arrow" aria-hidden="true">↗</span>
   </a>
 
   <script src="./js/main.js"></script>
+
+  <!--
+    Cloudflare Web Analytics (무료, 쿠키 없음, ~1KB)
+    1) https://dash.cloudflare.com 무료 가입
+    2) 좌측 메뉴 Analytics & Logs > Web Analytics > Add a site
+    3) 호스팅 도메인을 아직 Cloudflare에 연결하지 않았다면 "manual setup"을 선택 (DNS 이전 불필요)
+    4) 발급된 token 값을 아래 data-cf-beacon에 넣고 이 주석을 해제하세요.
+
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "YOUR_CLOUDFLARE_TOKEN"}'></script>
+  -->
 
   <!--
     지도 영역을 다시 사용할 때 아래 주석을 해제하세요.
